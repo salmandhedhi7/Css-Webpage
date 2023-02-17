@@ -1,0 +1,26 @@
+div {
+    font-size: 2em;
+    font-family:cursive;
+    font-weight: 200;
+
+}
+.small{
+    font-size:xx-large;
+}
+
+h1 {
+    border: 1px solid green;
+    max-width: 6em;
+    min-width: 5em;
+    color: red;
+    cursor:default;
+}
+
+h1+p {
+    min-width: 10em;
+    max-width: 40em;
+
+    max-height: 6em;
+    border: 2px solid red;
+
+}
